@@ -1,0 +1,39 @@
+body {
+  font: bold 12px Helvetica;
+}
+
+rect {
+  fill: #aec7e8;
+  stroke: #1f77b4;
+}
+
+circle {
+  fill: #aec7e8;
+  stroke: #1f77b4;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  float: left;
+  width: 200px;
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}

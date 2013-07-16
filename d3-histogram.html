@@ -1,0 +1,40 @@
+<!-- <thomas.mccauley@cern.ch> -->
+<html>
+<head>
+<title>d3</title>
+<link href="./css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.8.18.custom.min.js"></script>
+<script type="text/javascript" src="./js/d3.v2.min.js"></script>
+<link type="text/css" rel="stylesheet" href="./css/cmsdata-plot.css">
+</head>
+<body>
+	<form id="controls">
+		<div>
+		<h2>Dataset</h2>
+		    <select id="dataset">
+			   <option selected="selected">Select dataset...</option>
+			   <option value="Zee">Z to 2e</option>
+			   <option value="Zmumu">Z to 2mu</option>
+			   <option value="Wenu">W to e nu</option>
+			   <option value="Wmunu">W to mu nu</option>
+		    </select>
+	
+	    <h2>Value</h2>
+			<select id="value" class="histogram"></select>
+		<h2>Selection</h2>
+		    <select id="selection"></select>  
+              <p>
+              <div id="slider-range"></div>
+	          <input type="text" id="range" style="border:0; color:#000; font-weight:bold;"/>
+              </p>    
+	     </div> 
+	</form>
+
+<svg id="main-plot" width="1000" height="1000"></svg>
+<svg id="selection-plot1" width="1000" height="1000"></svg>
+<svg id="selection-plot2" width="1000" height="1000"></svg>
+
+</body>
+<script src="./js/d3-histogram.js"></script>
+</html>

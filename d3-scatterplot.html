@@ -1,0 +1,39 @@
+<!-- <thomas.mccauley@cern.ch> -->
+<html>
+<head>
+<title>d3</title>
+<script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="./js/d3.v2.min.js"></script>
+<link type="text/css" rel="stylesheet" href="./css/cmsdata-plot.css">
+</head>
+<body>
+	<form id="controls">
+		<div>
+			<h2>Dataset</h2>
+		    <ul><li>
+		       <select id="dataset">
+			       <option selected="selected">Select dataset...</option>
+			       <option value="Zee">Z to 2e</option>
+			       <option value="Zmumu">Z to 2mu</option>
+			       <option value="Wenu">W to e nu</option>
+			       <option value="Wmunu">W to mu nu</option>
+		       </select>
+		    </li></ul>
+		</div>
+		<div class="scatter">
+			<h2>X axis</h2>
+			<ul><li>
+				<select id="x" class="scatter"></select>
+			</li></ul>
+		</div>
+		<div class="scatter">
+			<h2>Y axis</h2>
+			<ul><li>
+				<select id="y" class="scatter"></select>
+			</li></ul>
+		</div>
+	</form>
+<svg id="plot" width="1000" height="600"></svg>
+</body>
+<script src="./js/d3-scatterplot.js"></script>
+</html>

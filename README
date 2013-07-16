@@ -1,0 +1,12 @@
+Here are a few experiments using d3 to 
+plot and histogram simple four-vector type information of 
+some Z and W events from the CMS experiment at the LHC.
+
+To run:
+In the terminal, run "python -m SimpleHTTPServer" and go to 
+localhost:8000 in your browser.
+
+http://d3js.org
+http://cms.web.cern.ch/content/cms-public-data
+
+thomas.mccauley@cern.ch
